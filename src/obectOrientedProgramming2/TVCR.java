@@ -1,7 +1,7 @@
 package obectOrientedProgramming2;
 
 //예제7-4 324p
-class Tv{
+class Tv1{
 	boolean power;	//전원상태(on/off)
 	int channel;	//채널
 	
@@ -20,7 +20,7 @@ class VCR{
 	void ff() 	{/*내용생략*/}
 }
 
-public class TVCR extends Tv{
+public class TVCR extends Tv1{
 	VCR vcr = new VCR();
 	int counter = vcr.counter;
 	
